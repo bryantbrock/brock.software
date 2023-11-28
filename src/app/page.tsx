@@ -88,7 +88,7 @@ export default function Page() {
               </ShowcaseCard>
             </div>
           </div>
-          <div className="h-full w-full">
+          {/* <div className="h-full w-full">
             <div className="h-full">
               <ShowcaseCard>
                 <Link href="/showcase/streamline">
@@ -128,7 +128,7 @@ export default function Page() {
                 </Link>
               </ShowcaseCard>
             </div>
-          </div>
+          </div> */}
           <div className="flex flex-col gap-4 h-full w-full">
             <div className="h-2/5">
               <ShowcaseCard>
@@ -227,7 +227,7 @@ export default function Page() {
       </section>
 
       {/* Testimonials */}
-      <section className="center w-full py-6 md:py-12 px-2">
+      {/* <section className="center w-full py-6 md:py-12 px-2">
         <div className="flex flex-col md:flex-row rounded-md">
           <div className="flex flex-col p-6 border-2 rounded-t-lg md:rounded-l-lg md:rounded-tr-none w-full">
             <p className="text-lg text-gray-600 flex-grow mb-8">
@@ -276,7 +276,7 @@ export default function Page() {
             <p>Cody Kingham, Co-founder & CEO</p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="center flex gap-6 items-center justify-center">
         <p>Want to learn more?</p>

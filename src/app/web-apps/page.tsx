@@ -116,7 +116,7 @@ export default function Page() {
       </section>
 
       {/* Featured showcase */}
-      <section className="mt-24 mb-12">
+      {/* <section className="mt-24 mb-12">
         <h2 className="tracking-widest text-gray-500 font-semibold">
           FEATURED
         </h2>
@@ -153,7 +153,7 @@ export default function Page() {
             </div>
           </div>
         </Link>
-      </section>
+      </section> */}
     </main>
   );
 }

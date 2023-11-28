@@ -197,11 +197,11 @@ export default function RootLayout({
             <div>
               <p className="font-semibold pb-6 text-gray-800">Showcase</p>
               <ul className="flex flex-col gap-3">
-                <li>
+                {/* <li>
                   <Link href="/showcase/streamline" className="hover:underline">
                     Streamline Scientific
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link href="/showcase/socratico" className="hover:underline">
                     Socratico.ai

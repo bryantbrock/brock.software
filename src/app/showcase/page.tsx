@@ -49,7 +49,7 @@ export default function Page() {
                 </ShowcaseCard>
               </div>
             </div>
-            <div className="h-full w-full">
+            {/* <div className="h-full w-full">
               <div className="h-full">
                 <ShowcaseCard>
                   <Link href="/showcase/streamline">
@@ -86,7 +86,7 @@ export default function Page() {
                   </Link>
                 </ShowcaseCard>
               </div>
-            </div>
+            </div> */}
             <div className="flex flex-col gap-4 h-full w-full">
               <div className="h-full">
                 <ShowcaseCard>
