@@ -3,13 +3,11 @@
 import {
   AlertDialog,
   AlertDialogAction,
-  AlertDialogCancel,
   AlertDialogContent,
   AlertDialogDescription,
   AlertDialogFooter,
   AlertDialogHeader,
   AlertDialogTitle,
-  AlertDialogTrigger,
 } from "@/components/ui/alert-dialog";
 import { useState } from "react";
 
@@ -42,6 +40,8 @@ export const SubscriptionForm = () => {
             style={{ width: "90%" }}
             placeholder="you@domain.com"
             id="email"
+            type="email"
+            required
           />
           <button
             type="submit"

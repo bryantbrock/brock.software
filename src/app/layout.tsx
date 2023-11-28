@@ -135,10 +135,10 @@ export default function RootLayout({
             </div>
             <div>
               <Link
-                href="/"
+                href="/contact"
                 className="flex gap-1 items-center bg-black hover:opacity-80 transition-opacity text-white rounded-lg w-fit px-4 py-1.5"
               >
-                <span>Get started</span>
+                <span>Contact us</span>
                 <ArrowUpRightIcon className="h-4 w-4" />
               </Link>
             </div>
@@ -149,8 +149,8 @@ export default function RootLayout({
         {children}
 
         {/* Footer */}
-        <footer className="center mt-20 p-3 py-6">
-          <div className="h-[320px] flex flex-wrap md:flex-nowrap gap-8 justify-between">
+        <footer className="center mt-20 p-3 my-3">
+          <div className="h-[300px] flex flex-wrap md:flex-nowrap gap-8 justify-between">
             <div className="flex flex-col justify-between w-full md:w-max">
               <Link href="/" className="flex gap-2 items-center">
                 <Image
@@ -165,38 +165,78 @@ export default function RootLayout({
                 <p className="text-gray-500 mt-4">
                   © {new Date().getFullYear()} Brock Software LLC
                 </p>
-                <div className="gap-2 opacity-60 mt-4 items-centera hidden md:flex">
+                {/* <div className="gap-2 opacity-60 mt-4 items-centera hidden md:flex">
                   <XLink height="24" />
                   <div className="border-r border-gray-300 h-5 my-auto" />
                   <GithubLink height="28" />
                   <div className="border-r border-gray-300 h-5 my-auto" />
                   <LinkedInLink height="28" />
-                </div>
+                </div> */}
               </div>
             </div>
             <div>
               <p className="font-semibold pb-6 text-gray-800">Products</p>
               <ul className="flex flex-col gap-3">
-                <li>Web apps</li>
-                <li>Consulting</li>
-                <li>Contracting</li>
+                <li>
+                  <Link href="/web-apps" className="hover:underline">
+                    Web apps
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/consulting" className="hover:underline">
+                    Consulting
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/contracting" className="hover:underline">
+                    Contracting
+                  </Link>
+                </li>
               </ul>
             </div>
             <div>
               <p className="font-semibold pb-6 text-gray-800">Showcase</p>
               <ul className="flex flex-col gap-3">
-                <li>Streamline Scientific</li>
-                <li>Socratico.ai</li>
-                <li>Fido</li>
+                <li>
+                  <Link href="/showcase/streamline" className="hover:underline">
+                    Streamline Scientific
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/showcase/socratico" className="hover:underline">
+                    Socratico.ai
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/showcase/fido" className="hover:underline">
+                    Fido
+                  </Link>
+                </li>
               </ul>
             </div>
             <div>
               <p className="font-semibold pb-6 text-gray-800">Company</p>
               <ul className="flex flex-col gap-3">
-                <li>Contact</li>
-                <li>Team</li>
-                <li>Blog</li>
-                <li>Careers</li>
+                <li>
+                  <Link href="/contact" className="hover:underline">
+                    Contact
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/team" className="hover:underline">
+                    Team
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/blog" className="hover:underline">
+                    Blog
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/careers" className="hover:underline">
+                    Careers
+                  </Link>
+                </li>
               </ul>
             </div>
             <div className="w-[270px] pb-8">
