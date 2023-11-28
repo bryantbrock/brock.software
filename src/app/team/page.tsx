@@ -29,8 +29,8 @@ export default function Page() {
                 Bryant is a full-stack developer with 5+ years of experience
                 building web and mobile applications. He has worked with
                 companies of all sizes and types, from startups to companies
-                with thousands of employees. companies. He loves seeing visions
-                come to life and does whatever he can to make a dream happen.
+                with thousands of employees. He loves bringing visions to life
+                and does whatever he can to make a dream happen.
               </p>
               <div className="gap-3 opacity-40 mt-4 items-centera flex">
                 <XLink height="22" />

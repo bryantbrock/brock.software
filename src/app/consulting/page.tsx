@@ -16,14 +16,14 @@ export default function Page() {
           <li>Ecommerce</li>
           <li>Service or product marketplaces</li>
           <li>Custom software</li>
-          <li>Advisement on latest technologies</li>
+          <li>Advice on the latest technologies</li>
         </ul>
         <p className="mt-6 text-lg">
-          If your's isn't listed above, reach out to us using the{" "}
+          If your idea or question isn't listed above, reach out to us using the{" "}
           <Link href="/contact" className="link">
             contact page
           </Link>{" "}
-          and we may be able to help you out.
+          and we may be able to help you.
         </p>
         <div className="mt-6 p-4 flex gap-3 items-center bg-gray-100 rounded-md">
           <svg
