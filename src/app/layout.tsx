@@ -20,6 +20,7 @@ import { SubscriptionForm } from "./components/SubscriptionForm";
 import GithubLink from "./components/social/GithubLink";
 import LinkedInLink from "./components/social/LinkedInLink";
 import XLink from "./components/social/XLink";
+import { Analytics } from "@vercel/analytics/react";
 
 const styled = Inter({
   subsets: ["latin"],
@@ -147,6 +148,8 @@ export default function RootLayout({
 
         {/* Content */}
         {children}
+
+        <Analytics />
 
         {/* Footer */}
         <footer className="center mt-20 p-3 my-3">
