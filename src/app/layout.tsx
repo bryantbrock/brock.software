@@ -60,7 +60,9 @@ export default function RootLayout({
                   width="30"
                   height="30"
                 />
-                <h1 className="font-bold text-2xl">Brock Software</h1>
+                <h1 className="font-bold text-lg md:text-2xl">
+                  Brock Software
+                </h1>
               </Link>
               <div className="border-r border-gray-300 h-5 my-auto" />
               <div className="hidden md:block">
@@ -139,7 +141,7 @@ export default function RootLayout({
                 href="/contact"
                 className="flex gap-1 items-center bg-black hover:opacity-80 transition-opacity text-white rounded-lg w-fit px-4 py-1.5"
               >
-                <span>Contact us</span>
+                <span className="text-sm md:text-base">Contact us</span>
                 <ArrowUpRightIcon className="h-4 w-4" />
               </Link>
             </div>
