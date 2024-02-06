@@ -1,5 +1,5 @@
 export default () => (
-  <div className="flex gap-2 items-center grayscale opacity-50">
+  <div className="flex gap-2 items-start grayscale opacity-50">
     <svg
       viewBox="0 0 32 32"
       xmlns="http://www.w3.org/2000/svg"

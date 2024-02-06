@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Page() {
   return (
@@ -9,8 +8,8 @@ export default function Page() {
         <h1>Web apps</h1>
         <p className="mt-6 text-lg">
           All web-based applications are built using{" "}
-          <Link href="https://nextjs.org/" target="_blank" className="link">
-            Next.js
+          <Link href="https://remix.run" target="_blank" className="link">
+            Remix
           </Link>
           . This foundation provides a number of benefits:
         </p>
@@ -32,8 +31,8 @@ export default function Page() {
         </ul>
         <p className="mt-6 text-lg">
           In addition, all web apps are hosted on{" "}
-          <Link href="https://vercel.com/" target="_blank" className="link">
-            Vercel
+          <Link href="https://fly.io" target="_blank" className="link">
+            Fly.io
           </Link>{" "}
           and the backends are managed using the well-crafted{" "}
           <Link href="https://www.prisma.io/" target="_blank" className="link">

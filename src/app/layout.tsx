@@ -129,7 +129,7 @@ export default function RootLayout({
                     </DropdownMenuSub>
                     <DropdownMenuItem>
                       <Link href="/showcase" className="text-lg">
-                        Showecase
+                        Showcase
                       </Link>
                     </DropdownMenuItem>
                   </DropdownMenuContent>

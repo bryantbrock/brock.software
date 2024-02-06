@@ -7,6 +7,7 @@ import PrismaSvg from "./components/technologies/PrismaSvg";
 import NextJsSVG from "./components/technologies/NextJsSvg";
 import ReactNativeSvg from "./components/technologies/ReactNativeSvg";
 import ClerkSvg from "./components/technologies/ClerkSvg";
+import RemixSVG from "./components/technologies/RemixSVG";
 
 export default function Page() {
   return (
@@ -204,7 +205,7 @@ export default function Page() {
             </p>
           </div>
           <div className="flex flex-col gap-4 items-center">
-            <h1 className="text-3xl md:text-[48px]">$1.5M</h1>
+            <h1 className="text-3xl md:text-[48px]">$20M+</h1>
             <p className="text-center text-lg leading-relaxed">
               handled through <br /> software we built
             </p>
@@ -218,23 +219,26 @@ export default function Page() {
           FREQUENTLY USED
         </h4>
         <div className="flex justify-between gap-10 my-8 flex-wrap">
+          <RemixSVG />
           <NextJsSVG />
           <TailwindCSSSvg />
           <PrismaSvg />
           <ReactNativeSvg />
-          <ClerkSvg />
+          {/* <ClerkSvg /> */}
         </div>
       </section>
 
       {/* Testimonials */}
-      {/* <section className="center w-full py-6 md:py-12 px-2">
+      <section className="center w-full py-6 md:py-12 px-2">
         <div className="flex flex-col md:flex-row rounded-md">
           <div className="flex flex-col p-6 border-2 rounded-t-lg md:rounded-l-lg md:rounded-tr-none w-full">
             <p className="text-lg text-gray-600 flex-grow mb-8">
-              "Brock Software is a game-changer! They crafted a flawless
-              e-commerce platform for my business. Their team is super
-              responsive, and the results are mind-blowing. Top-notch software
-              development!""
+              "As a non-tech founder, I needed someone to help me get from zero
+              to one. Brock Software taught me how to talk about tech and
+              developed the first prototype of Fido, putting my ideas into
+              visual and functional form. Bryant's work helped me raise money to
+              brand, market and fully develop my app. They are great to work
+              with, very knowledgeable, and deliver quality work on time!"
             </p>
             <Image
               height="38"
@@ -245,7 +249,7 @@ export default function Page() {
             />
             <p>Jeremiah Mosley, Founder</p>
           </div>
-          <div className="flex flex-col p-6 border-2 border-t-0 md:border-l-0 md:border-t-2 w-full">
+          {/* <div className="flex flex-col p-6 border-2 border-t-0 md:border-l-0 md:border-t-2 w-full">
             <p className="text-lg text-gray-600 flex-grow mb-8">
               "Brock Software nailed it with my mobile app. Impressive quality
               and post-launch support. Worth the investment for reliable
@@ -259,12 +263,13 @@ export default function Page() {
               className="mb-1"
             />
             <p>Marty Sampson, Director of Web Technologies</p>
-          </div>
+          </div> */}
           <div className="flex flex-col p-6 border-2 rounded-b-lg md:rounded-r-lg md:rounded-b-none border-t-0 md:border-l-0 md:border-t-2 w-full">
             <p className="text-lg text-gray-600 flex-grow mb-8">
-              "Brock Software delivered a spot-on solution for my startup. Quick
-              to adapt, great communication, and expert developers. Perfect for
-              bringing ideas to life!"
+              "Brock Software builds beautiful full-stack interfaces quickly and
+              efficiently. We are thrilled with the UI they designed for our AI
+              agent interactions. The expertise and care they bring to their
+              work is self-evident."
             </p>
             <Image
               height="38"
@@ -276,7 +281,7 @@ export default function Page() {
             <p>Cody Kingham, Co-founder & CEO</p>
           </div>
         </div>
-      </section> */}
+      </section>
 
       <section className="center flex gap-6 items-center justify-center">
         <p>Want to learn more?</p>

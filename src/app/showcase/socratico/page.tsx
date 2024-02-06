@@ -52,7 +52,7 @@ export default function Page() {
                 Using the power of AI, which excels at working with texts,
                 Socratico is on a mission to make 1-on-1 tutoring accessible to
                 all students. Combining 1-on-1 tutoring and AI, Socratico
-                engages a student through interative content, helps them
+                engages a student through interactive content, helps them
                 understand complex problems, and challenges them to go further.
               </p>
             </div>

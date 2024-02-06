@@ -19,7 +19,7 @@ export default function Page() {
                 width="250"
                 alt="Bryant's Headshot image"
                 className="rounded-lg max-w-[250px]"
-                src="https://media.licdn.com/dms/image/D5603AQFhGMQLwYjqBA/profile-displayphoto-shrink_400_400/0/1655949848537?e=1706140800&v=beta&t=AGdKbHfudYCg4dAe9tk8z57Qbv0bh-1sbeLKUxDaGuc"
+                src="/images/bbrock_headshot.jpg"
               />
             </div>
             <div className="flex flex-col">
