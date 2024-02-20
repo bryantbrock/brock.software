@@ -8,7 +8,7 @@ export const POST = async (request: Request) => {
   const text = `${email} just sent you a message!\n\n"${message}"`;
 
   const msg = {
-    to: "bryant@brock.software",
+    to: "info@brock.software",
     from: "bryant@brock.software",
     subject: "New Message!",
     text,

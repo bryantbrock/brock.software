@@ -98,7 +98,7 @@ export const ContactForm = () => {
             <AlertDialogDescription>
               {result === "success"
                 ? "We will get back to you as soon as possible."
-                : "Something didn't quite work. Please try again or send us an email to bryant@brock.software."}
+                : "Something didn't quite work. Please try again or send us an email to info@brock.software."}
             </AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter>

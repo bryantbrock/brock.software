@@ -60,7 +60,7 @@ export const SubscriptionForm = () => {
             <AlertDialogDescription>
               {result === "success"
                 ? "Welcome to the club! We are glad you decided to join."
-                : "Something didn't quite work. Please try again or send us an email to bryant@brock.software."}
+                : "Something didn't quite work. Please try again or send us an email to info@brock.software."}
             </AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter>

@@ -149,7 +149,7 @@ export default function RootLayout({
         </div>
 
         {/* Content */}
-        {children}
+        <div className="min-h-[calc(100vh-550px)] mb-20">{children}</div>
 
         <Analytics />
 

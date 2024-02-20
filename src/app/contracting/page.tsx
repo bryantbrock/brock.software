@@ -12,7 +12,7 @@ export default function Page() {
           <Link href="/contact" className="link">
             contact page
           </Link>{" "}
-          to reach out to us. Send us an email to bryant@brock.software or
+          to reach out to us. Send us an email to info@brock.software or
           LinkedIn if you prefer.
         </p>
         <div className="mt-6 p-4 flex gap-3 items-center bg-gray-100 rounded-md">
