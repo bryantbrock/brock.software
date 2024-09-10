@@ -1,6 +1,6 @@
 export default ({ height }: { height?: string | number }) => (
   <a
-    href="https://twitter.com/BryantBrock8"
+    href="https://twitter.com/bryantbrock_"
     className="cursor-pointer hover:opacity-70 transition-opacity"
     target="_blank"
   >
